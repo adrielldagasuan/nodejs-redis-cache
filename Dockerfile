@@ -1,5 +1,4 @@
-#FROM node:wheezy
-FROM centos:centos6
+FROM node:argon
 
 # Create app directory
 RUN mkdir -p /usr/src/app/
