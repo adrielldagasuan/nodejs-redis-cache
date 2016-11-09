@@ -13,8 +13,10 @@
     "axios": "^0.15.2",
     "express": "^4.14.0",
     "redis": "^2.6.3",
-    "response-time": "^2.3.1",
-    "mocha": "1.20.1",
-    "supertest": "1.1.0"
+    "response-time": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "3.1.2",
+    "supertest": "^1.1.0"
   }
 }
