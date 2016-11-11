@@ -14,8 +14,8 @@ COPY . /usr/src/app/
 # Set environment for Redis connection
 # IMPORTANT: Remove these two lines when
 # setting of ENV is done in sudo docker run command
-CMD ENV REDIS_HOST=192.168.1.184
-CMD ENV REDIS_PORT=6379
+#CMD ENV REDIS_HOST=192.168.1.184
+#CMD ENV REDIS_PORT=6379
 
 EXPOSE 8080
 CMD ["node","app.js"]
